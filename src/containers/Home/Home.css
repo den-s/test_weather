@@ -1,0 +1,19 @@
+select {
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.weatherBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.weatherBlock .items {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
